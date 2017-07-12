@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="文件管理系统登陆" Height="384" Width="683" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="2017-06-26 (3).png"/>
+        </Grid.Background>
+        <TextBox Name="username" Background="Transparent" HorizontalAlignment="Center"  Height="28" Margin="0,-150,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="265" VerticalContentAlignment="Center"/>
+        <PasswordBox Name="password" Background="Transparent" HorizontalAlignment="Center" Height="28" Margin="0,-50,0,0" VerticalAlignment="Center" Width="265" VerticalContentAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" Height="28" Margin="-359,-50,0,0" TextWrapping="Wrap" FontSize="18" FontFamily="droid sans fallback" Text="Password" VerticalAlignment="Center" Width="89"/>
+        <TextBlock HorizontalAlignment="Center" Height="25" Margin="-359,-150,0,0" TextWrapping="Wrap" FontSize="18" FontFamily="droid sans fallback" Text="Username" VerticalAlignment="Center" Width="90"/>
+        <TextBlock HorizontalAlignment="Center" Height="58" Margin="30,-265,0,0" TextWrapping="Wrap" FontFamily="方正粗圆_GBK" FontSize="48px" Text="      File System" VerticalAlignment="Center" Width="420"/>
+        <Button Content="Login"  HorizontalAlignment="Center" Background="Transparent" Height="55" Margin="0,100,0,0" VerticalAlignment="Center" Width="157" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Click="Button_Click"/>
+    </Grid>
+</Window>
